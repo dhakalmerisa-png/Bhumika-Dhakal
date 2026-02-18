@@ -1,7 +1,2 @@
-
-
-
-
-
-
+print("Hello World")
 
