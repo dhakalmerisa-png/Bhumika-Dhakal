@@ -336,7 +336,7 @@ Output: 5
 ```
 
 
-#* Dictionary
+# *Dictionary
 
 big bracket ma liaayeko kura lai modify garba milch IN dictionary
 modify nahuna lai chai get use garni
