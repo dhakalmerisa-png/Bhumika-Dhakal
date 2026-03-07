@@ -229,9 +229,133 @@ print(combined_fruits)
 print(fav_fruits[0])
 print(fav_fruits[2])  
 
-Output:['apple', 'banana', 'cherry', 'grape', 'kiwi']
+Output:['apple', 'banana', 'cherry', 'grape', 'kiwi'
+]
+``` 
+```python
+fav_fruits={"apple", "banana", "cherry"}
+print("banana" in fav_fruits)
+print("grape" in fav_fruits)
 
 
+OUTPUT: {'banana', 'apple', 'cherry', 'grape'}
+
+fav_fruits.add("grape")
+print(fav_fruits)
+
+Output:{'cherry', 'apple', 'banana', 'grape'}
+
+fav_fruits.remove("banana")
+print(fav_fruits)
+
+OUTPUT:{'cherry', 'grape','apple'}
 
 
+fav_fruits=tuple(fav_fruits)
+print(fav_fruits[0])
 
+Output: cherry
+
+fav_fruits.clear()
+print(fav_fruits)
+
+OUTPUT: set()
+```
+# *Set
+ ###  unordered, unchangeable*, and unindexed.
+```python 
+fav_fruits={"apple", "banana", "cherry"}
+print("banana" in fav_fruits)
+print("grape" in fav_fruits)
+
+fav_fruits.add("grape")
+print(fav_fruits)
+
+fav_fruits=tuple(fav_fruits)
+print(fav_fruits[0])
+
+# For loop
+```python
+for i in range(10):  
+   #(0,10,1) starting.ending,jump 
+ print(i)                                        #same line ma huna lai chai print(i,end=" ")
+
+Output: 0 1 2 3 4 5 6 7 8 9
+
+ for i in range(10,0,-1)
+ print(i,end=" ")
+
+ Output: 10 9 8 7 6 5 4 3 2 1
+```
+# While loop
+```python 
+i=0
+while(i<10)
+print(i,end=" ")
+i+=1 #i=i+1
+
+Output= 0 1 2 3 4 5 6 7 8 9
+```
+
+#### Checking Prime (for loop)
+``` python
+n=60
+if(n>=2):
+  print("The number is greater or euqal than 2")
+  for i in range(2,n):
+    if(n%i==0):
+      print("The number is not prime")
+      break
+    else:
+        print("The number is prime")
+        break
+```
+#### Positive n Negative
+```python
+    n=1
+if(n>0):
+  for i in range(2):
+    print(i)
+  print("The number is positive")
+elif(n<0):
+ print("The number is negative")  
+ ```
+ #### Input dinna lai
+ ``` python
+ name=input( "enter your name: ")
+age=input("enter your age: ")
+print(name,age)
+
+n1=int(input("enter first number: "))
+n2=int(input("enter second number: "))
+print(n1+n2) 
+#mathi int narakhaayera garda 
+#sum=int(n1) + int(n2)
+
+Output: 5
+```
+
+
+#* Dictionary
+
+big bracket ma liaayeko kura lai modify garba milch IN dictionary
+modify nahuna lai chai get use garni
+
+```python
+Person={
+    "name":"Merisa",
+    "age":18,
+    "gender":"Female",
+    "address":{
+        "City":"ktm",
+        "country":"Nepal",
+        "fav_movies":["3 idiots","nepali"]
+    }
+}
+print(Person)
+print("Name:", Person["name"])
+Person["age"]=19
+print(Person["age"])
+print(Person.get("age"))
+print(Person.get("address").get("City"))
+```

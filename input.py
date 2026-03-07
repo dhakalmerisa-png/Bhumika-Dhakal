@@ -1,0 +1,8 @@
+name=input( "enter your name: ")
+age=input("enter your age: ")
+print(name,age)
+
+n1=int(input("enter first number: "))
+n2=int(input("enter second number: "))
+print(n1+n2)
+
