@@ -504,12 +504,12 @@ class Family(father,mother):
            
      def age(self):
         return f"my son age is {self.age}"
-```
-     
+
 bhunti=Family("son","bhunti",18)
 print(bhunti.love())
 print(bhunti.nickname())
 print(bhunti.age)
+```
 
 ## Encapsulation
 Encapsulation is about protecting data inside a class.
