@@ -359,3 +359,25 @@ print(Person["age"])
 print(Person.get("age"))
 print(Person.get("address").get("City"))
 ```
+
+## 0OP(Object Oriented Programming)
+  Object-Oriented Programming, a widely used computer programming model that organizes software design around data, or "objects," rather than functions and logic. Objects encapsulate both data (attributes) and behavior (methods) to make code modular, reusable, and easier to maintain.
+
+## Class
+  A class is a blueprint or template for creating objects, defining their data (attributes) and behaviors (methods).
+
+## Constructor 
+  A constructor is a special method within a class, automatically called when an object is created, used to initialize the object's properties.
+
+## Attributes 
+  In Python, attributes are variables that store data, representing the properties of an object.
+
+## Methods
+  Methods are functions defined within a class that define the actions or behaviors an object can perform.
+
+## Self Method
+The term "self" is a fundamental concept in object-oriented programming (OOP) in Python. It is not a reserved keyword in Python but a strong, universally accepted naming convention for the first parameter of instance methods.
+#### The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
+
+## How does Self Method works?
+ The self parameter is a convention used within object-oriented programming (OOP) to refer to the current instance (object) of a class. It allows methods defined within a class to access and modify data (attributes) specific to that particular object, making each object independent of others created from the same class blueprint.
