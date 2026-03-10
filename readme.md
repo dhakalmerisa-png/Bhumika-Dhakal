@@ -476,4 +476,17 @@ def menu():
 
 menu()
 ```
+ ## Inheritance
+ Inheritance allows us to define a class that inherits all the methods and properties from another class.
+Parent class is the class being inherited from, also called base class.
+Child class is the class that inherits from another class, also called derived class.
 
+
+
+## Encapsulation
+Encapsulation is about protecting data inside a class.
+It means keeping data (properties) and methods together in a class, while controlling how the data can be accessed from outside the class.
+This prevents accidental changes to your data and hides the internal details of how your class works.
+
+## Polymorphism
+ The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.
