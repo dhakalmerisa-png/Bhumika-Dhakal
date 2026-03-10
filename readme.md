@@ -360,7 +360,7 @@ print(Person.get("age"))
 print(Person.get("address").get("City"))
 ```
 
-## 0OP(Object Oriented Programming)
+## OOP(Object Oriented Programming)
   Object-Oriented Programming, a widely used computer programming model that organizes software design around data, or "objects," rather than functions and logic. Objects encapsulate both data (attributes) and behavior (methods) to make code modular, reusable, and easier to maintain.
 
 ## Class
